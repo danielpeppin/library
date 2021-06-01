@@ -51,3 +51,7 @@ Signatures can be used to verify the source of information
 - Only I can encrypt information with my private key
 - Only my private key can decrypt information encrypted by my private key
 - I can hash my information, encrypt the hash with my private key, and the recipient can decrypt the hash and verify the contents are authentic
+
+## Non-repudiation
+
+Prevents sender of message to deny that they are the sender
