@@ -46,6 +46,7 @@ Hashing can be performed on information to generate a "fingerprint" of the infor
 - Only the original information can have generated this fingerprint. 
 - It is impossible to prepare information that will generate a specific fingerprint.
 - SHA is condidered secure, MD5 is condidred insecure, but sufficent for low security applications
+- Passwords are generally hashed before storing, since the hash can verify the correct password
 
 Signatures can be used to verify the source of information
 - Only I can encrypt information with my private key
