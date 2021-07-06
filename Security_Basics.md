@@ -18,9 +18,9 @@ Access Controls - Ensure only authorized personnel can access data
 2) Authentication - proof of identity with something known (password) and/or something held (key card)
 3) Authorization - rules that state what information is or is not accessible to a user or group
 
-Obfuscation - hidding or obscuring data
+Obfuscation - hidding or obscuring data (steganography is one particular method to accomplish objuscation)
 
-> Encryption is the best means to ensure confidentiality. Access controls can restric access on controled systems. Obfuscation, including steganography can hide information "in plane sight"
+> Encryption is the best means to ensure confidentiality. Access controls can restric access on controled systems. Obfuscationcan hide information "in plane sight"
 
 ### Integrity
 
