@@ -59,3 +59,32 @@ Also very difficult to falsify
 - SAML - Security Assertion Markup Language - Based on XML, SSO Ffor web browsers
   - Shibboleth -  a federated SSO system often used on the internet
 
+### Authorization Framework
+
+Least Privilege - grant authorization for only the work that is needed and no more
+
+Need to Know - grant authorization to access only data that is needed to know
+
+#### Account Types
+
+- End Users - most common, regular users
+- Privileged Accounts - admin or other elevated authorization
+- Guest Accounts - limited, often anonymous accounts, **lacks granular identification**
+- Service Accounts - accounts used by services and applications
+
+#### Principles in Account Management
+
+- administrators use standard user accounts for daily activity, only use privileged accounts for special actions
+- follow defined naming conventions
+- prohibit shared and generic accounts
+- disable inactive accounts
+
+#### Access Control Models
+
+- Role-BAC - Role-based access control: based work load type, often using groups as a mechanism (hierarchy, job-based)
+- Rule-BAC - Rule-based access control: based on scenario rules, like firewalls, or event-triggered scenarios
+- DAC - Discretionary access control: every object has an owner, and the owner can establish accessw for the object
+  - based on SIDs (user and group IDs) 
+  - using DACL (discretionary access control list)
+- MAC - Mandatory access control:
+- ABAC - Attribute-based access control:
