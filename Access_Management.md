@@ -4,7 +4,7 @@
 
 Identification: a unique identifier, allows activity to be attributed to a sole individual
 
-Authentication: proving,confirming, verification of the identity of an individual
+Authentication: proving,confirming, verification of the identity of an individual (confirmed by an authoritive entity)
 
 Authorization: defining the capabilities and rights of an individual
 
@@ -86,5 +86,12 @@ Need to Know - grant authorization to access only data that is needed to know
 - DAC - Discretionary access control: every object has an owner, and the owner can establish accessw for the object
   - based on SIDs (user and group IDs) 
   - using DACL (discretionary access control list)
-- MAC - Mandatory access control:
-- ABAC - Attribute-based access control:
+- MAC - Mandatory access control: uses security classifications + compartments to limit access
+  - compartments exists separatly and own a security level
+  - security classifications rank the level of security allowed
+  - a user needs both the security level and the compartment to gain access
+- ABAC - Attribute-based access control: grants access based on attributes
+  - Subject: users with certain attributes
+  - Object: object to interact with
+  - Action: allowable action to object by subject
+  - Environment: other attributes to consider
